@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic CSS reset & helpers */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body,
+#__next {
+  height: 100%;
+}
+body {
+  @apply bg-white text-gray-900;
+}
+
+/* A simple container to mimic mobile width */
+.mobile-shell {
+  @apply max-w-sm mx-auto min-h-screen bg-white;
+}
+
+/* Card styles */
+.card {
+  @apply rounded-3xl shadow-card bg-white;
+}
