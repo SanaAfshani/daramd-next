@@ -1,6 +1,6 @@
-# MVP فارسی (Next.js + Tailwind CSS)
+#MVP(Next.js + Tailwind CSS)
 
-این پروژه یک نمونه‌ی سبک (MVP) از رابط کاربری موبایل به زبان فارسی/RTL است که با **Next.js 14** و **Tailwind CSS** پیاده‌سازی شده و از طرح ارسالی شما الهام گرفته شده است.
+این پروژه یک نمونه‌ی سبک (MVP) از رابط کاربری موبایل به زبان فارسی/RTL است که با **Next.js 14** و **Tailwind CSS** پیاده‌سازی شده است.
 
 ## اجرای پروژه
 
@@ -21,7 +21,6 @@ src/
     layout.tsx         # چیدمان عمومی با فونت فارسی و RTL
     globals.css        # استایل‌های Tailwind
     funds/page.tsx     # صفحات نمونهٔ تب‌ها
-    messages/page.tsx
     account/page.tsx
   components/          # اجزای UI (TopBar، کارت تبلیغی، اکشن‌ها، تراکنش‌ها، ناوبری پایین)
   lib/
